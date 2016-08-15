@@ -1,0 +1,102 @@
+/*TAKE EFFECT WHEN BROWSER WINDOW IS 980px OR LESS*/
+@media screen and (max-width: 980px) {
+	.container{
+		width: 100%;
+	}
+	#main-container{
+		width: 100%;
+		padding: 20px;
+	}
+	.main-section,
+	.sidebar{
+		border: 2px solid #F6FF00;
+		/*yellow border*/
+		margin-top: 100px;
+	}
+	.main-section{
+		float: left;
+		width: 50%;
+	}
+	.sidebar{
+		float: right;
+		width: 35%;
+	}
+	.auth-image{
+		float: none;
+	}
+	nav a:last-child{
+		margin-right: 25px;
+	}
+}
+
+/*TAKE EFFECT WHEN BROWSER WINDOW IS 768px OR LESS*/
+@media screen and (max-width: 768px){
+	#main-container{
+		width: 100%;
+		padding: 20px;
+	}
+	.main-section,
+	.sidebar{
+		width: 100%;
+		border: 2px solid #4BFF4A; 
+		/*green border*/
+	}
+	.main-section{
+		margin-top: 100px;
+		margin-bottom: -50px;
+	}
+	.sidebar{
+		margin-bottom: 25px;
+	}
+	.container{
+		width: 100%;
+	}
+	nav a:last-child{
+		margin-right: 25px;
+	}
+	.auth-image{
+		float: left;
+	}
+}
+
+/*TAKE EFFECT WHEN BROWSER WINDOW IS 640px OR LESS*/
+@media screen and (max-width: 640px){
+	#main-container{
+		width: 100%;
+		padding: 20px;
+	}
+	#logo{
+		clear: both;
+		width: 100%;
+		margin: 0;
+	}
+	nav{
+		clear: both;
+		width: 100%;
+		text-align: center;
+	}
+	nav a{
+		border: none;
+		font-size: 20px;
+	}
+	.main-section,
+	.sidebar{
+		width: 100%;
+		margin-bottom: 25px;
+		border: 2px solid #FF0077;
+		/*pink border*/
+	}
+	.main-section{
+		margin-top: 170px;
+		margin-bottom: -50px;
+	}
+	.auth-image{
+		float: none;
+		width: 350px;
+		margin-left: 75px;
+	}
+	.work{
+		float: none;
+		width: 500px;
+	}
+}
